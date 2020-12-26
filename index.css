@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header.gradient {
+    background: linear-gradient(270deg, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+    box-shadow: none;
+}
+
+/* ------------------------------------------------    Logo */
+.logo {
+    position: absolute;
+    z-index: 1;
+}
+.logo a{
+    position: fixed;
+    color: #000;
+    left: 2%;
+    top: 2%;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------------------    Starting_page */
+.starting_page {
+    width: 100%;
+    height: calc(100vh);
+    background: url(./img/2020.jpg) no-repeat 50% 50%;
+    position: relative;
+    background-size: cover;
+}
+
+
+/* ------------------------------------------------    Second_page */
+.second_page {
+    width: 100%;
+    height: calc(100vh);
+    text-align: center;
+    font-size: 1.8em;
+    background-color: rgb(66, 94, 94);
+    font-family: Arial, sans-serif;
+}
+.second_page h3:first-child{
+    padding-top: 20%;
+}
+
+
+/* ------------------------------------------------    Home page - Slideshow */
+.slideshow {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.slideshow-item {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 20s infinite;
+}
+
+.slideshow-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 15s infinite;
+}
+
+.text {
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0,0,0,.8);
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+.text .allAbout {
+    padding-top: 17%;
+    font-size: 3em;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.text .A2020 {
+    font-size: 8em;
+    letter-spacing: 0.04em;
+    font-family: "Google Sans Text Beta",Roboto,Arial,sans-serif;
+}
+
+.text .para2020 {
+    padding-top: 0.3em;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: cursive;
+    letter-spacing: 0.5px;
+}
+
+.slideshow-item:nth-child(1), .slideshow-item:nth-child(1) img{
+    animation-delay: 0s;
+}
+.slideshow-item:nth-child(2), .slideshow-item:nth-child(2) img{
+    animation-delay: 6s;
+}
+.slideshow-item:nth-child(3), .slideshow-item:nth-child(3) img{
+    animation-delay: 11s;
+}
+.slideshow-item:nth-child(4), .slideshow-item:nth-child(4) img{
+    animation-delay: 15s;
+}
+.slideshow-item:nth-child(5), .slideshow-item:nth-child(5) img{
+    animation-delay: 20s;
+}
+.slideshow-item:nth-child(6), .slideshow-item:nth-child(6) img{
+    animation-delay: 25s;
+}
+.slideshow-item:nth-child(7), .slideshow-item:nth-child(7) img{
+    animation-delay: 30s;
+}
+.slideshow-item:nth-child(8), .slideshow-item:nth-child(8) img{
+    animation-delay: 35s;
+}
+.slideshow-item:nth-child(9), .slideshow-item:nth-child(9) img{
+    animation-delay: 40s;
+}
+.slideshow-item:nth-child(10), .slideshow-item:nth-child(10) img{
+    animation-delay: 45s;
+}
+.slideshow-item:nth-child(11), .slideshow-item:nth-child(11) img{
+    animation-delay: 50s;
+}
+.slideshow-item:nth-child(12), .slideshow-item:nth-child(12) img{
+    animation-delay: 55s;
+}
+.slideshow-item:nth-child(13), .slideshow-item:nth-child(13) img{
+    animation-delay: 60s;
+}
+.slideshow-item:nth-child(14), .slideshow-item:nth-child(14) img{
+    animation-delay: 65s;
+}
+.slideshow-item:nth-child(15), .slideshow-item:nth-child(15) img{
+    animation-delay: 70s;
+}
+.slideshow-item:nth-child(16), .slideshow-item:nth-child(16) img{
+    animation-delay: 75s;
+}
+.slideshow-item:nth-child(17), .slideshow-item:nth-child(17) img{
+    animation-delay: 80s;
+}
+.slideshow-item:nth-child(18), .slideshow-item:nth-child(18) img{
+    animation-delay: 85s;
+}
+.slideshow-item:nth-child(19), .slideshow-item:nth-child(19) img{
+    animation-delay: 90s;
+}
+.slideshow-item:nth-child(20), .slideshow-item:nth-child(20) img{
+    animation-delay: 95s;
+}
+.slideshow-item:nth-child(21), .slideshow-item:nth-child(21) img{
+    animation-delay: 100s;
+}
+.slideshow-item:nth-child(22), .slideshow-item:nth-child(22) img{
+    animation-delay: 105s;
+}
+.slideshow-item:nth-child(23), .slideshow-item:nth-child(22) img{
+    animation-delay: 110s;
+}
+@keyframes cycleImages {
+    30% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+}
+@keyframes zoom {
+    100% {
+        transform: scale(1.25);
+    }
+}
+
+
+/* ------------------------------------------------    1st sub-page / Corona short New */
+
+/* ------------------------------------------------    2nd sub-page / Australia Bushfire short New */
+
+/* ------------------------------------------------    3rd sub-page / Jakarta - Indonesia  short New */
+
+/* ------------------------------------------------    4th sub-page / Riots in Delhi short New */
+
+/* ------------------------------------------------    5th sub-page / Death of Kobe Bryant short New */
+
+/* ------------------------------------------------    6th sub-page / Olympics postporned short New */
+
+/* ------------------------------------------------    7th sub-page / Bollywood Losses short New */
+
+/* ------------------------------------------------    8th sub-page / LG Gas leak in Visakhapatam short New */
+
+/* ------------------------------------------------    9th sub-page / George Floyd Death #BlcakLivesMatter short New */
+
+/* ------------------------------------------------    10th sub-page / Pregant Elephant Death short New */
+
+
+
+
+
+/* ------------------------------------------------    Media - Queries */
+
+@media (max-width: 1600px) {
+    .second_page h3:first-child{
+        padding-top: 30%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .second_page h3:first-child{
+        padding-top: 55%;
+    }
+    .text .allAbout {
+        padding-top: 50%;
+    }
+    .second_page {
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo a, .second_page {
+        font-size: 1.2em;
+    }
+    .second_page h3:first-child{
+        padding-top: 70%;
+    }
+
+    .text .A2020 {
+        font-size: 5em;
+    }
+    .text .allAbout{
+        font-size: 2em;
+        padding-top: 65%;
+    }
+    .text .para2020{
+        font-size: 0.6rem;
+    }
+}
