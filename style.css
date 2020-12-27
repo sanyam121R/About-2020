@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Poppins;
+}
+
 .header.gradient {
     background: linear-gradient(270deg, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
     box-shadow: none;
@@ -14,6 +18,7 @@
     z-index: 1;
 }
 .logo a{
+    font-family: 'Times New Roman', serif;
     position: fixed;
     color: #000;
     left: 2%;
@@ -36,12 +41,13 @@
 
 /* ------------------------------------------------    Second_page */
 .second_page {
+    color: white;
     width: 100%;
     height: calc(100vh);
     text-align: center;
     font-size: 1.8em;
-    background-color: rgb(66, 94, 94);
-    font-family: Arial, sans-serif;
+    background-color: #000;
+    font-family: 'Reenie Beanie';
 }
 .second_page h3:first-child{
     padding-top: 20%;
@@ -85,21 +91,22 @@
 .text .allAbout {
     padding-top: 17%;
     font-size: 3em;
+    font-family: 'Reenie Beanie';
     text-transform: capitalize;
     letter-spacing: 3px;
 }
 
 .text .A2020 {
     font-size: 8em;
-    letter-spacing: 0.04em;
-    font-family: "Google Sans Text Beta",Roboto,Arial,sans-serif;
+    letter-spacing: 0.08em;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text .para2020 {
     padding-top: 0.3em;
     text-align: center;
-    font-size: 1.2em;
-    font-family: cursive;
+    font-size: 1.5em;
+    font-family: 'Reenie Beanie';
     letter-spacing: 0.5px;
 }
 
@@ -186,12 +193,33 @@
     }
 }
 
+/* ------------------------------------------------    Right side Menu Bar */
+
+.menu {
+    /* font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.singlePage {
+    width: 100%;
+    height: calc(100vh);
+}
+
+.heading {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.paragraphs {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1em;
+}
 
 /* ------------------------------------------------    1st sub-page / Corona short New */
 
 /* ------------------------------------------------    2nd sub-page / Australia Bushfire short New */
 
-/* ------------------------------------------------    3rd sub-page / Jakarta - Indonesia  short New */
+/* ------------------------------------------------    3rd sub-page / Indonesia - Jakarta  short New */
 
 /* ------------------------------------------------    4th sub-page / Riots in Delhi short New */
 
@@ -199,9 +227,9 @@
 
 /* ------------------------------------------------    6th sub-page / Olympics postporned short New */
 
-/* ------------------------------------------------    7th sub-page / Bollywood Losses short New */
+/* ------------------------------------------------    7th sub-page / Bollywood and Hollywood Losses short New */
 
-/* ------------------------------------------------    8th sub-page / LG Gas leak in Visakhapatam short New */
+/* ------------------------------------------------    8th sub-page / LG Gas leak in Visakhapatnam short New */
 
 /* ------------------------------------------------    9th sub-page / George Floyd Death #BlcakLivesMatter short New */
 
