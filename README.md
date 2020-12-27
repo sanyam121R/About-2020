@@ -1,7 +1,6 @@
-#****about2020****
+# [about2020](https://github.com/sanyam121R/about2020)
 
-> This is my first open source project anyboby with a great idea or wants to add news.
-> Feel free to create an issue or a pull request...
+Your [contributions](contributing.md) are always welcome !
 
 This project or website provides news/events happended in this year, **2020 - a bad year**.
 
