@@ -1,7 +1,6 @@
-#**About-2020**
+#**about2020**
 
 > This is my first open source project anyboby with a great idea or wants to add news.
-
 > Feel free to create an issue or a pull request...
 
 This project or website provides news/events happended in this year, **2020 - a bad year**.
