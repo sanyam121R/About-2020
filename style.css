@@ -7,9 +7,9 @@ body {
     font-family: Poppins;
 }
 
-.header.gradient {
-    background: linear-gradient(270deg, rgb(0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
-    box-shadow: none;
+.rect {
+    width: 100%;
+    height: calc(100vh);
 }
 
 /* ------------------------------------------------    Logo */
@@ -18,9 +18,10 @@ body {
     z-index: 1;
 }
 .logo a{
+    z-index: 3;
     font-family: 'Times New Roman', serif;
     position: fixed;
-    color: #000;
+    color: #fff;
     left: 2%;
     top: 2%;
     font-size: 1.8em;
@@ -29,25 +30,26 @@ body {
 }
 
 
+
+
 /* ------------------------------------------------    Starting_page */
 .starting_page {
-    width: 100%;
-    height: calc(100vh);
     background: url(./img/2020.jpg) no-repeat 50% 50%;
     position: relative;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
 /* ------------------------------------------------    Second_page */
 .second_page {
-    color: white;
-    width: 100%;
-    height: calc(100vh);
+    color: #000;
     text-align: center;
     font-size: 1.8em;
-    background-color: #000;
+    background: rgb(98 98 98);
     font-family: 'Reenie Beanie';
+    background-size: cover;
+    background-attachment: fixed;
 }
 .second_page h3:first-child{
     padding-top: 20%;
@@ -56,11 +58,9 @@ body {
 
 /* ------------------------------------------------    Home page - Slideshow */
 .slideshow {
-    width: 100%;
-    height: 100vh;
     position: relative;
     overflow: hidden;
-    z-index: -1;
+    z-index: -3;
 }
 
 .slideshow-item {
@@ -79,9 +79,7 @@ body {
 }
 
 .text {
-    z-index: 1;
-    width: 100%;
-    height: 100vh;
+    z-index: -1;
     position: absolute;
     background-color: rgba(0,0,0,.8);
     color: rgb(230, 230, 230);
@@ -89,7 +87,7 @@ body {
 }
 
 .text .allAbout {
-    padding-top: 17%;
+    padding-top: 16%;
     font-size: 3em;
     font-family: 'Reenie Beanie';
     text-transform: capitalize;
@@ -173,12 +171,7 @@ body {
 .slideshow-item:nth-child(21), .slideshow-item:nth-child(21) img{
     animation-delay: 100s;
 }
-.slideshow-item:nth-child(22), .slideshow-item:nth-child(22) img{
-    animation-delay: 105s;
-}
-.slideshow-item:nth-child(23), .slideshow-item:nth-child(22) img{
-    animation-delay: 110s;
-}
+
 @keyframes cycleImages {
     30% {
         opacity: 1;
@@ -192,49 +185,6 @@ body {
         transform: scale(1.25);
     }
 }
-
-/* ------------------------------------------------    Right side Menu Bar */
-
-.menu {
-    /* font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.singlePage {
-    width: 100%;
-    height: calc(100vh);
-}
-
-.heading {
-    font-size: 1.8em;
-    font-weight: 600;
-}
-.paragraphs {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.1em;
-}
-
-/* ------------------------------------------------    1st sub-page / Corona short New */
-
-/* ------------------------------------------------    2nd sub-page / Australia Bushfire short New */
-
-/* ------------------------------------------------    3rd sub-page / Indonesia - Jakarta  short New */
-
-/* ------------------------------------------------    4th sub-page / Riots in Delhi short New */
-
-/* ------------------------------------------------    5th sub-page / Death of Kobe Bryant short New */
-
-/* ------------------------------------------------    6th sub-page / Olympics postporned short New */
-
-/* ------------------------------------------------    7th sub-page / Bollywood and Hollywood Losses short New */
-
-/* ------------------------------------------------    8th sub-page / LG Gas leak in Visakhapatnam short New */
-
-/* ------------------------------------------------    9th sub-page / George Floyd Death #BlcakLivesMatter short New */
-
-/* ------------------------------------------------    10th sub-page / Pregant Elephant Death short New */
-
 
 
 
