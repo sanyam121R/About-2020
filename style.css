@@ -366,3 +366,18 @@ a, li {
         padding-top: 100px;
     }
 }
+
+@media screen and (min-height: 920px) {
+    @media screen and ( max-width: 425px) {
+        .second_page h3:first-child{
+            padding-top: 90%;
+        }
+        .text .A2020 {
+            font-size: 5em;
+        }
+        .text .allAbout{
+            padding-top: 80%;
+            font-size: 2.4em;
+        }
+    }
+}
