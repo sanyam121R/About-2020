@@ -29,11 +29,9 @@ const navSlide = () => {
         } else {
             buttonforTop.style.animation = '';
             buttonforTop.style.visibility = "hidden";
-
           }
     };
 }
-
 
 const app = () => {
     navSlide();
