@@ -31,6 +31,13 @@ a, li {
     top: 1%;
 }
 
+.aboutMe {
+    padding-top: 30px;
+}
+.linktoProfile {
+    padding-left: 10px;
+}
+
 /* ------------------------------------------------    Wrapper Menu */
 .wrapper-menu {
     z-index: 2;
@@ -79,12 +86,15 @@ a, li {
 
 /* ------------------------------------------------    Wrapper Menu List */
 .sidebar-list {
-    padding-top: 160px;
+    padding-top: 170px;
 }
 
 .sidebar {
+    padding: 20px;
+    overflow: auto;
+    white-space: nowrap;
     height: 100vh;
-    width: 25%;
+    width: 30%;
     color: rgb(0 0 0 / 27%);
     font-family: 'Poppins', sans-serif;
     position: fixed;
@@ -109,7 +119,7 @@ a, li {
 @keyframes navLinkFade {
     from {
         opacity: 0;
-        transform: translateX(40px);
+        transform: translateX(25px);
     }
     to {
         opacity: 1;
@@ -311,7 +321,7 @@ a, li {
         left: 94%;
     }
     .sidebar-list {
-        padding-top: 160%;
+        padding-top: 240px;
     }
     .logo a, .second_page {
         font-size: 1.5em;
@@ -358,10 +368,11 @@ a, li {
         font-size: 0.7rem;
     }
     .sidebar-list {
-        padding-top: 140px;
+        padding-top: 115px;
     }
     .sidebar {
         width: 100%;
+        padding: 5px;
         background-color: rgba(0, 0, 0, 0.952);
     }
     .moveToTop {
@@ -390,6 +401,9 @@ a, li {
         padding-top: 60%;
         font-size: 1.8em;
     }
+    .sidebar-list {
+        padding-top: 60px;
+    }
     .moveToTop {
         width: 18px;
         height: 18px;
@@ -398,7 +412,7 @@ a, li {
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 321px){
     .moveToTop {
         width: 16px;
         height: 16px;
@@ -410,11 +424,12 @@ a, li {
         top: 1.5%;
     }
     .sidebar-list {
-        padding-top: 100px;
+        font-size: 15px;
+        padding-top: 50px;
     }
 }
 
-@media screen and (min-height: 920px) {
+/* @media screen and (min-height: 920px) {
     @media screen and ( max-width: 425px) {
         .second_page h3:first-child{
             padding-top: 90%;
@@ -427,4 +442,4 @@ a, li {
             font-size: 2.4em;
         }
     }
-}
+} */

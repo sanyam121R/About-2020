@@ -15,7 +15,13 @@ const navSlide = () => {
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
-                buttonforTop.style.visibility = "visible";
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    buttonforTop.style.visibility = "visible";
+                    buttonforTop.style.animation = `fadeIn 1s`;
+                } else {
+                    buttonforTop.style.animation = '';
+                    buttonforTop.style.visibility = "hidden";
+                }
             } else {
                 link.style.animation = `navLinkFade 0.5s ease-in forwards ${index/11 + 0.15}s`;
             }
@@ -29,7 +35,7 @@ const navSlide = () => {
         } else {
             buttonforTop.style.animation = '';
             buttonforTop.style.visibility = "hidden";
-          }
+        }
     };
 }
 
