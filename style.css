@@ -41,7 +41,7 @@ a, li {
 
 /* ------------------------------------------------    Wrapper Menu */
 .wrapper-menu {
-    z-index: 2;
+    z-index: 10;
     position: fixed;
     left: 96%;
     top: 2%;
@@ -91,12 +91,12 @@ a, li {
 }
 
 .sidebar {
+    z-index: 5;
     padding: 20px;
     overflow: auto;
     white-space: nowrap;
     height: 100vh;
     width: 30%;
-    color: rgb(0 0 0 / 27%);
     font-family: 'Poppins', sans-serif;
     position: fixed;
     right: 0px;
@@ -105,7 +105,7 @@ a, li {
     text-align: center;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.67);
 }
 
 .sidebar-list li{
@@ -632,7 +632,7 @@ h1 {
         padding-top: 115px;
     }
     .sidebar {
-        width: 60%;
+        width: 100%;
         padding: 5px;
         background-color: rgba(0, 0, 0, 0.952);
     }
@@ -653,7 +653,53 @@ h1 {
         display: none;
     }
 
+    .n1 h1 {
+        font-size: 85px;
+        padding: 10px 0 25px 0;
+    }
+    p {
+        font-size: 17px;
+    }
 
+    .n2 {
+        max-width: 425px;
+    }
+    .n2 h1 {
+        font-size: 60px;
+    }
+    
+    .img-slider {
+        width: 320px;
+        height: 200px;
+    }
+    .img-slider .slide img{
+        height: 200px;
+    }
+    .img-slider .navigation .btn {
+        width: 7px;
+        height: 7px;
+        margin: 7px;
+    }    
+    .mapIused{
+        margin: 20px 0;
+    }
+    .mapIused p {
+        font-size: 12px;
+    }
+    .CDB-Widget-body {
+        padding: 0px;
+    }
+
+    .CDB-Dashboard-canvas {
+        height: 55%;
+    }
+    
+    #carto-frame-newsspec-26083-app {
+        height: 320px;
+    }
+    .carto-container{
+        width: 320px;
+    }
 }
 
 @media screen and (max-width: 426px){
@@ -700,27 +746,13 @@ h1 {
     }
 
 
-
     .n2 {
         max-width: 320px;
     }
     .n2 h1 {
         margin-top: 25px;
         font-size: 50px;
-    }
-    .img-slider {
-        width: 320px;
-        height: 200px;
-    }
-    
-    .img-slider .slide img{
-        height: 200px;
-    }
-    .img-slider .navigation .btn {
-        width: 7px;
-        height: 7px;
-        margin: 7px;
-    }    
+    }  
     .mapIused{
         margin: 20px 0;
     }
@@ -734,18 +766,11 @@ h1 {
     .CDB-Dashboard-canvas {
         height: 85%;
     }
-    .carto-embed {
-        position: relative;
-        padding: 0px 0px;
-    }
+
     
-
-
-
-
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 325px){
     .moveToTop {
         width: 16px;
         height: 16px;
@@ -760,19 +785,36 @@ h1 {
         font-size: 15px;
         padding-top: 50px;
     }
-}
-
-/* @media screen and (min-height: 920px) {
-    @media screen and ( max-width: 425px) {
-        .second_page h3:first-child{
-            padding-top: 90%;
-        }
-        .text .A2020 {
-            font-size: 5em;
-        }
-        .text .allAbout{
-            padding-top: 80%;
-            font-size: 2.4em;
-        }
+    p {
+        font-size: 13px;
     }
-} */
+    #containerCovid {
+        max-width: 300px;
+        padding: 25px;
+    }
+    .n1 h1 {
+        font-size: 60px;
+    }
+    .n2 {
+        max-width: 300px;
+    }
+    .n2 h5 {
+        display: none;
+    }
+    .img-slider {
+        margin: 20px auto;
+        width: 270px;
+        height: 185px;
+    }
+    .img-slider .slide img{
+        height: 180px;
+    }
+    .img-slider .navigation .btn {
+        width: 7px;
+        height: 7px;
+        margin: 7px;
+    }
+    .mapIused {
+        display: none;
+    }
+}
